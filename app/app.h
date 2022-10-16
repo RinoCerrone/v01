@@ -7,8 +7,8 @@
 namespace vsite::oop::v1
 {
     std::string to_hex(int a);
-    std::string to_exp(int a);
-    std::string mult_table(int a,std::ostream&);
+    std::string to_exp(double a);
+    void mult_table(int a,std::ostream&);
     
 /*
 * function declarations

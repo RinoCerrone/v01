@@ -9,11 +9,15 @@ namespace vsite::oop::v1
         std::string res=ss.str();
         return res;
     }
-    std::string to_exp(int a){
-
+    std::string to_exp(double a){
+          
+        std::stringstream ss;
+        ss<<std::setprecision(2)<<scientific<<a;
+        std::string res=ss.str();
+        return res;
 
     }
-    std::string mult_table(int a,std::ostream&){
+    void mult_table(int a,std::ostream&){
 
 
 
