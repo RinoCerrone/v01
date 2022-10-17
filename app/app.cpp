@@ -2,6 +2,7 @@
 #include <format>
 #include <iostream>
 #include <sstream>
+#include <iomanip>
 
 namespace vsite::oop::v1
 {
