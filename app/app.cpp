@@ -1,11 +1,13 @@
 #include "app.h"
 #include <format>
+#include <iostream>
+#include <sstream>
 
 namespace vsite::oop::v1
 {
     std::string to_hex(int a){
         std::stringstream ss;
-        ss<<hex<<a;
+        ss<<std::hex<<a;
         std::string res=ss.str();
         return res;
     }
