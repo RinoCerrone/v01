@@ -7,15 +7,16 @@
 namespace vsite::oop::v1
 {
     std::string to_hex(int a){
+        //return std::format("{:X}",a);
         std::stringstream ss;
-        ss<<std::hex<<a;
+        ss<<std::hex<<std::uppercase<<a;
         std::string res=ss.str();
         return res;
     }
     std::string to_exp(double a){
-          
+        //return std::format("{:.2e}",a);
         std::stringstream ss;
-        ss<<std::setprecision(2)<<scientific<<a;
+        ss<<std::setprecision(2)<<std::scientific<<a;
         std::string res=ss.str();
         return res;
 
