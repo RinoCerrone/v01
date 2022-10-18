@@ -25,9 +25,9 @@ namespace vsite::oop::v1
         if(a<1||a>20)return;
         int i,j;
         for(i=1;i<=a;++i){
-         std::ss<<std::endl;
+          ss<<std::endl;
          for(j=1;j<=a;++j){
-          std::ss<<i*j<<"\t";
+           ss<<i*j<<"\t";
           }
         }
 
