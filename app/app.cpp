@@ -21,7 +21,7 @@ namespace vsite::oop::v1
         return res;
 
     }
-    void mult_table(int a,std::ostream&){
+    void mult_table(int a,std::ostream& ss){
         if(a<1||a>20)return;
         int i,j;
         for(i=1;i<=a;++i){
