@@ -24,22 +24,24 @@ namespace vsite::oop::v1
     }
     void mult_table(int a,std::ostream& ss){
         if(a<1||a>20)return;
-        int i,j;
+         int i,j;
         
-        for(i=0;i<=a;++i)
+        for(i=0;i<=a;++i){
           if(i!=a)ss<<i<<"\t";
           else ss<<i;
-        ss<<"\\n";
+        }
         for(i=1;i<=a;++i){
           
-          ss<<std::endl;
+          ss<<"\n";
           ss<<i<<"\t";
          for(j=1;j<=a;++j){
            if(j!=a)ss<<i*j<<"\t";
            else ss<<i*j;
           }
-          ss<<"\\n";
-        }
+          
+     }
+          
+        
 
 
 
