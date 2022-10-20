@@ -27,15 +27,15 @@ namespace vsite::oop::v1
          int i,j;
         
         for(i=0;i<=a;++i){
-          if(i!=a)ss<<i<<"\t";
+          if(i!=a)ss<<i<<std::setw(4);
           else ss<<i;
         }
         for(i=1;i<=a;++i){
           
           ss<<"\n";
-          ss<<i<<"\t";
+          ss<<i<<std::setw(4);
          for(j=1;j<=a;++j){
-           if(j!=a)ss<<i*j<<"\t";
+           if(j!=a)ss<<i*j<<std::setw(4);
            else ss<<i*j;
           }
           
