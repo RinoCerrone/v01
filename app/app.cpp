@@ -28,7 +28,7 @@ namespace vsite::oop::v1
         
         for(i=0;i<=a;++i){
           if(i!=a)ss<<i<<std::setw(4);
-          else ss<<i;
+          else ss<<i<<"\n";
         }
         for(i=1;i<=a;++i){
           
