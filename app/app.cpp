@@ -39,9 +39,9 @@ namespace vsite::oop::v1
          for(int j=1;j<=a;++j){
            if(j!=a)ss<<i*j<<std::setw(4);
            else ss<<i*j;
-           ss<<"\n";
+           
           }
-          
+          ss<<"\n";
      }
           
         
