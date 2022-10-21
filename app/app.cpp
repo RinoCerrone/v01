@@ -27,7 +27,8 @@ namespace vsite::oop::v1
          
         
         for(int i=0;i<=a;++i){
-          ss<<i<<std::setw(4);
+          if(i!=a)ss<<i<<std::setw(4);
+          else ss<<i;
           
         }
         ss<<"\n";
@@ -36,7 +37,8 @@ namespace vsite::oop::v1
           
           ss<<i<<std::setw(4);
          for(int j=1;j<=a;++j){
-           ss<<i*j<<std::setw(4);
+           if(j!=a)ss<<i*j<<std::setw(4);
+           else ss<<i*j;
            ss<<"\n";
           }
           
