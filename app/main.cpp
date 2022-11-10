@@ -8,10 +8,12 @@
 
 int main()
 {
-    int a=6;
-    std::stringstream ss;
-    std::cout<<vsite::oop::v1::to_hex(a);
-    vsite::oop::v1::mult_table(a,ss);
+    int n;
+    std::cout<<"Enter integer number: ";
+    std::cin>>n;
+    
+    std::cout<<vsite::oop::v1::to_hex(n);
+    vsite::oop::v1::mult_table(n,std::cout);
     return 0;
     
 }
